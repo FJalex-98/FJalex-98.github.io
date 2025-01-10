@@ -10,12 +10,12 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #f6fafc;
+    background-color: #d6d6d6;
 }
 
 /*Estilo para el I N I C I O*/
 .inicio{
-    background: linear-gradient(to right, #000c67, #007be5);
+    background: linear-gradient(to right, #1D1E1F, #1D1E1F);
     clip-path: polygon(0 0, 100% 0, 100% 61%, 75% 100%, 0 60%);
     height: 90vh;
     padding: 0 20px;
@@ -25,7 +25,11 @@ body{
     max-width: 1100px;
     margin: auto;
     color: #fff;
+    text-align: justify;
 
+}
+.inicio .contenido p{
+    color: #a1a2a3;
 }
 .inicio header{
     display: flex;
@@ -36,7 +40,7 @@ body{
 .inicio .logo{
     display: flex;
     align-items: center;
-    color: #00deef;
+    color: #a1a2a3;
     font-size: 25px;
 }
 .inicio .logo {
@@ -53,7 +57,7 @@ body{
     border: 2px solid transparent;
 }
 #inicio header nav a:hover{
-    border-bottom: 2 px solid #ff5b00;
+    border-bottom: 2 px solid #1b55d3;
 
 }
 .inicio .redes a{
@@ -63,7 +67,7 @@ body{
     margin: 0 10px;
 }
 .inicio .redes a:hover{
-    color: #ff5b00;
+    color: #1d53e7;
 
 }
 .inicio .fila{
@@ -93,15 +97,16 @@ body{
 .inicio .fila .col .contenedor-img img{
     width: 110%;
 }
-.inicio .fila .col button{  
+.inicio .fila .col a{  
     background: none;
     width: fit-content;
     padding: 5px 40px;
-    border: 2px solid #ff5b00;
+    border: 2px solid #476f4d;
     color: #fff;
-    background: linear-gradient(to right, #ff5b00, #ff9900);
+    background: linear-gradient(to right, #0c382b, #234d39);
     transition: .5s;
     cursor: pointer;
+    text-decoration: none !important;
 }
 .inicio .fila .col button:hover{
     transform: scale(1.1); 
@@ -122,9 +127,10 @@ body{
 }
 
 .sombra{    
-    filter: drop-shadow(0em 30px 20px #9bd2f4);
+    filter: drop-shadow(0em 30px 20px #192337);
 
 }
+
 
 /*SECCION SERVICIOS*/
 .servicios{
@@ -222,7 +228,7 @@ body{
 
 /*seccion habilidades*/
 .habilidades { 
-    background: linear-gradient(to right, #000c67, #007be5);
+    background: linear-gradient(to right, #1D1E1F, #1D1E1F);
     color: #fff;
     padding: 60px 0;
     position: relative;
@@ -290,7 +296,7 @@ body{
     text-decoration: none;
     display: inline-block;
     margin: 0 20px;
-    color: #007be5;
+    color: #1D1E1F;
     font-weight: bold;
     padding: 3px 10px;
     border: 3px solid transparent;
@@ -301,7 +307,7 @@ body{
 /*Esta Clase se agregará dinámicamente cuando haya seleccionada una opción*/
 
 .borde{
-    border: 3px solid #ff5b00 !important;
+    border: 3px solid #81a323 !important;
 }
 .trabajos .galeria .item img{
     width: 100%;
@@ -347,7 +353,7 @@ body{
     display: block;
     margin: 20px;
     text-decoration: none;
-    color: #007be5;
+    color: #1D1E1F;
     font-weight: bold;
 }
 .trabajos .galeria .item:hover .info{
@@ -358,7 +364,7 @@ body{
 /*sección C O N T A C T O*/
 
 .contacto{
-    background: linear-gradient(rgba(0,12,103,1), rgba(0, 12,103,.5)),
+    background: linear-gradient(rgb(33, 33, 36), rgba(70, 72, 88, 0.5)),
     url(Imagenes/contacto.webp);
     background-size: cover;
     color:#fff;
@@ -396,15 +402,17 @@ body{
     border: 1px solid #8d8d8d;
     margin-bottom: 20px;
     outline: none;
-    color: #ff5b00;
+    color: #ffffff;
 }
 .contacto .btn{
     background-color: none;
     padding: 5px 40px;
-    border: 2px solid;
-    color: #fff;
+    border: 2px solid #476f4d;
     cursor: pointer;
-    background: linear-gradient(to right, #ff5b00, #ff9900);
+    background: linear-gradient(to right, #0c382b, #234d39);
+    transition: .5s;
+    color: #fff;
+
 }
 
 footer {
@@ -507,3 +515,4 @@ footer {
         width: 25%;
     }
 }
+
