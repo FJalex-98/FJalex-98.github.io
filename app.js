@@ -3,55 +3,55 @@ function cargarAnimaciones(){
     $(function(){
         $(".chart1").easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#81a323",
             scaleLength:0,
             lineWidth:15,
-            trackColor: "#525151",
+            trackColor: "#b6eea2",
             lineCap: "circle",
             animate: 2000,
         });
         $(".chart2").easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#81a323",
             scaleLength:0,
             lineWidth:15,
-            trackColor: "#525151",
+            trackColor: "#b6eea2",
             lineCap: "circle",
             animate: 2000,
         });
         $(".chart3").easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#81a323",
             scaleLength:0,
             lineWidth:15,
-            trackColor: "#525151",
+            trackColor: "#b6eea2",
             lineCap: "circle",
             animate: 2000,
         });
         $(".chart4").easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#81a323",
             scaleLength:0,
             lineWidth:15,
-            trackColor: "#525151",
+            trackColor: "#b6eea2",
             lineCap: "circle",
             animate: 2000,
         });
         $(".chart5").easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#81a323",
             scaleLength:0,
             lineWidth:15,
-            trackColor: "#525151",
+            trackColor: "#b6eea2",
             lineCap: "circle",
             animate: 2000,
         });
         $(".chart6").easyPieChart({
             size:160,
-            barColor:"#ff5b00",
+            barColor:"#81a323",
             scaleLength:0,
             lineWidth:15,
-            trackColor: "#525151",
+            trackColor: "#b6eea2",
             lineCap: "circle",
             animate: 2000,
         })
@@ -140,7 +140,3 @@ for(i=0;i<links.length;i++){
     
     }
 }
-
-
-
-
