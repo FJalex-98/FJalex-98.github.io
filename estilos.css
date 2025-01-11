@@ -415,7 +415,7 @@ body{
 
 }
 
-footer {
+footer{
     background-color: #000;
     color: #fff;
     padding: 7px 0;
@@ -441,7 +441,7 @@ footer {
     #nav{
         display: none;
     } 
-    #nav .responsive{
+    #nav.responsive{
        background-color: rgba(0,0,0,.9); 
        top: 0;
        left: 0;
@@ -455,7 +455,7 @@ footer {
        justify-content: center;
        z-index: 99;
     }
-    #nav .responsive a{
+    #nav.responsive a{
         font-size: 30px;
     }
     #icono-nav{
