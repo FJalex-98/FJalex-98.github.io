@@ -441,7 +441,7 @@ footer {
     #nav{
         display: none;
     } 
-    #nav.responsive{
+    #nav .responsive{
        background-color: rgba(0,0,0,.9); 
        top: 0;
        left: 0;
