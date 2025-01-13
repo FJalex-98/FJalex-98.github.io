@@ -328,7 +328,7 @@
        <!-- Seccion contactos -->
 
       <section class="contacto" id="contacto">
-        <div class="contenedor-contacto">
+          <div class="contenedor-contacto">
           <h2>Contacto</h2>
           <div class="fila">
             <div class="col">
@@ -344,14 +344,17 @@
                 <h3>Cuidad</h3>
                 <p>Quito-Ecuador</p>                
               </div>
-            </div>
-            <div class="col">
-              <input type="text" placeholder="Nombre...">
-              <input type="email" placeholder="Correo...">
-              <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
-              <input type="submit" value="Enviar" class="btn">
-              <!-- <button type="submit">Enviar</button>-->
-            </div>
+            </div>                        
+            <div class="col">    
+              <form name="Formulario" action="https://formspree.io/f/xgvvdzgz" method="POST">            
+              <input type="text" name="name" placeholder="Nombre...">
+              <!--<input type="text" name="name" placeholder="Apellido...">-->
+              <input type="email" name="email" placeholder="Correo...">
+              <!--<input type="text" placeholder="Teléfono...">-->
+              <textarea name="" id="" cols="30" rows="10" name="message" placeholder="Escribe tu mensaje..."></textarea>
+              <input type="submit" value="Enviar" class="btn">                
+              </form>
+            </div>          
           </div>
 
         </div>
