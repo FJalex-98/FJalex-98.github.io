@@ -498,11 +498,7 @@ footer{
         margin-bottom: 40px;
     }
     .habilidades{
-        position:static;
-        padding: 20px;
-        margin-bottom: 0px;
-        margin-top: 0px;  
-        margin: auto;         
+        position:static;       
     }
     .trabajos nav a{
         margin: 0 5px;
