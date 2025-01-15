@@ -482,15 +482,15 @@ footer{
 
     .servicios{
         position: static;
-        padding: 20px;
+        padding: 30px;
     }    
     .servicios .fila{
         display: block;
         margin-bottom: 0;
     }
     .servicios .fila .col{
-        width: 70%;
-        text-align: auto;
+        width: 75%;
+        text-align: center;
     }
     .servicios .fila .col .card{
         width: 100%;
@@ -499,6 +499,7 @@ footer{
     .habilidades{
         position: static;
         padding: 20px;
+        text-aling: center;
     }
     .trabajos nav a{
         margin: 0 5px;
