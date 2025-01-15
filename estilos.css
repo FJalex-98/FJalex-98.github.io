@@ -515,7 +515,7 @@ footer{
         width: 100% !important;
     }
     .contacto .fila .col .info{
-        float:inherit;
+        float:inline-end;
         font-size: 12px;
         width: 25%;
     }
