@@ -429,7 +429,7 @@ footer{
 }
 
 /*seccion RESPONSIVE*/
-@media screen and (min-width: 901px) {
+@media screen and (max-width: 901px) {
     .inicio{
         clip-path: none;
     }
