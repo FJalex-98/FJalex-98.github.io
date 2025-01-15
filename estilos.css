@@ -429,12 +429,12 @@ footer{
 }
 
 /*seccion RESPONSIVE*/
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 480px) {
     .inicio{
         clip-path: none;
     }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width: 320px) {
     .redes{
     display: none;
     }
