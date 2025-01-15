@@ -482,24 +482,27 @@ footer{
 
     .servicios{
         position: static;
-        padding: 30px;
+        padding: 25px;
     }    
     .servicios .fila{
-        display: block;
-        margin-bottom: 0;
+       display: inline-block;
+        margin-bottom: 10px;
+        text-align: center;
     }
     .servicios .fila .col{
-        width: 75%;
-        text-align: center;
+        width: 100%;
+        text-align: auto;
     }
     .servicios .fila .col .card{
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .habilidades{
-        position: static;
+        position:static;
         padding: 20px;
-        text-aling: center;
+        margin-bottom: 0px;
+        margin-top: 0px;  
+        margin: auto;         
     }
     .trabajos nav a{
         margin: 0 5px;
