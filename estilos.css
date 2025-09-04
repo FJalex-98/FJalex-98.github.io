@@ -364,8 +364,7 @@ body{
 /*sección C O N T A C T O*/
 
 .contacto{
-    background: linear-gradient(rgb(33, 33, 36), rgba(70, 72, 88, 0.5)),
-    url(Imagenes/Font.png);
+    background: linear-gradient(rgb(33, 33, 36), rgba(70, 72, 88, 0.5)), url(Imagenes/Font.png);
     background-size: cover;
     color:#fff;
     margin-top: 100px;
@@ -516,5 +515,6 @@ footer{
         width: 25%;
     }
 }
+
 
 
