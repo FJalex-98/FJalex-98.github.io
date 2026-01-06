@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Estudiante</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+
+        /* Menú de Navegación */
+        nav {
+            background-color: #34495e;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        /* Efecto al pasar el mouse */
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+
+        /* Contenido de ejemplo */
+        .content {
+            padding: 40px;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Diseño Adaptable (Celulares) */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                text-align: center;
+                border-bottom: 1px solid #2c3e50;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ESTUDIANTE: Juan Pérez Armas</h1>
+    </header>
+
+    <nav>
+        <a href="#redes">Redes</a>
+        <a href="#soporte">Soporte</a>
+        <a href="#analisis">Análisis</a>
+    </nav>
+
+    <div class="content">
+        <h2>Bienvenido al Portal Informativo</h2>
+        <p>Selecciona una opción del menú superior para comenzar.</p>
+    </div>
+
+</body>
+</html>
